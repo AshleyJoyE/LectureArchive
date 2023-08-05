@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		AB0889BA2A7B2EE20048DAA4 /* InClassNotesLocatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0889B92A7B2EE20048DAA4 /* InClassNotesLocatorApp.swift */; };
-		AB0889BC2A7B2EE20048DAA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0889BB2A7B2EE20048DAA4 /* ContentView.swift */; };
+		AB0889BC2A7B2EE20048DAA4 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0889BB2A7B2EE20048DAA4 /* MainView.swift */; };
 		AB0889BE2A7B2EE40048DAA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB0889BD2A7B2EE40048DAA4 /* Assets.xcassets */; };
 		AB0889C12A7B2EE40048DAA4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB0889C02A7B2EE40048DAA4 /* Preview Assets.xcassets */; };
 		AB0889CB2A7B2EE40048DAA4 /* InClassNotesLocatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0889CA2A7B2EE40048DAA4 /* InClassNotesLocatorTests.swift */; };
 		AB0889D52A7B2EE40048DAA4 /* InClassNotesLocatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0889D42A7B2EE40048DAA4 /* InClassNotesLocatorUITests.swift */; };
 		AB0889D72A7B2EE40048DAA4 /* InClassNotesLocatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0889D62A7B2EE40048DAA4 /* InClassNotesLocatorUITestsLaunchTests.swift */; };
+		AB0889E62A7B2FD90048DAA4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0889E52A7B2FD90048DAA4 /* Extensions.swift */; };
+		AB0889EB2A7B4BD40048DAA4 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0889EA2A7B4BD40048DAA4 /* MainViewModel.swift */; };
+		AB0889F42A7BD8DF0048DAA4 /* PhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0889F32A7BD8DF0048DAA4 /* PhotosView.swift */; };
+		ABE0B63B2A7DABA500161A4A /* ClassPhotoIdentifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = ABE0B63A2A7DABA500161A4A /* ClassPhotoIdentifier.mlmodel */; };
+		ABE0B63D2A7E6BA600161A4A /* AlbumDialogueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE0B63C2A7E6BA600161A4A /* AlbumDialogueView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +39,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AB0889B62A7B2EE20048DAA4 /* InClassNotesLocator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InClassNotesLocator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB0889B62A7B2EE20048DAA4 /* LectureArchive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LectureArchive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB0889B92A7B2EE20048DAA4 /* InClassNotesLocatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InClassNotesLocatorApp.swift; sourceTree = "<group>"; };
-		AB0889BB2A7B2EE20048DAA4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AB0889BB2A7B2EE20048DAA4 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		AB0889BD2A7B2EE40048DAA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB0889C02A7B2EE40048DAA4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		AB0889C62A7B2EE40048DAA4 /* InClassNotesLocatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InClassNotesLocatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB0889C62A7B2EE40048DAA4 /* LectureArchiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LectureArchiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB0889CA2A7B2EE40048DAA4 /* InClassNotesLocatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InClassNotesLocatorTests.swift; sourceTree = "<group>"; };
-		AB0889D02A7B2EE40048DAA4 /* InClassNotesLocatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InClassNotesLocatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB0889D02A7B2EE40048DAA4 /* LectureArchiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LectureArchiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB0889D42A7B2EE40048DAA4 /* InClassNotesLocatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InClassNotesLocatorUITests.swift; sourceTree = "<group>"; };
 		AB0889D62A7B2EE40048DAA4 /* InClassNotesLocatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InClassNotesLocatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AB0889E52A7B2FD90048DAA4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		AB0889E72A7B2FE70048DAA4 /* Classifer.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Classifer.mlmodel; sourceTree = "<group>"; };
+		AB0889EA2A7B4BD40048DAA4 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		AB0889F32A7BD8DF0048DAA4 /* PhotosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosView.swift; sourceTree = "<group>"; };
+		ABE0B63A2A7DABA500161A4A /* ClassPhotoIdentifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = ClassPhotoIdentifier.mlmodel; path = "../../../../../../var/folders/v6/kl5hf__100xbx7yj8grh_jl00000gp/T/com.apple.dt.CreateML.app/sharing/drag/FF599803-3DF6-460D-87AF-FB7460E84EAE/ClassPhotoIdentifier.mlmodel"; sourceTree = "<group>"; };
+		ABE0B63C2A7E6BA600161A4A /* AlbumDialogueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDialogueView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,9 +95,9 @@
 		AB0889B72A7B2EE20048DAA4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AB0889B62A7B2EE20048DAA4 /* InClassNotesLocator.app */,
-				AB0889C62A7B2EE40048DAA4 /* InClassNotesLocatorTests.xctest */,
-				AB0889D02A7B2EE40048DAA4 /* InClassNotesLocatorUITests.xctest */,
+				AB0889B62A7B2EE20048DAA4 /* LectureArchive.app */,
+				AB0889C62A7B2EE40048DAA4 /* LectureArchiveTests.xctest */,
+				AB0889D02A7B2EE40048DAA4 /* LectureArchiveUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,8 +105,12 @@
 		AB0889B82A7B2EE20048DAA4 /* InClassNotesLocator */ = {
 			isa = PBXGroup;
 			children = (
+				ABE0B63A2A7DABA500161A4A /* ClassPhotoIdentifier.mlmodel */,
+				AB0889E92A7B30E10048DAA4 /* ViewModels */,
+				AB0889E82A7B30D80048DAA4 /* Views */,
+				AB0889E72A7B2FE70048DAA4 /* Classifer.mlmodel */,
+				AB0889E52A7B2FD90048DAA4 /* Extensions.swift */,
 				AB0889B92A7B2EE20048DAA4 /* InClassNotesLocatorApp.swift */,
-				AB0889BB2A7B2EE20048DAA4 /* ContentView.swift */,
 				AB0889BD2A7B2EE40048DAA4 /* Assets.xcassets */,
 				AB0889BF2A7B2EE40048DAA4 /* Preview Content */,
 			);
@@ -127,12 +142,38 @@
 			path = InClassNotesLocatorUITests;
 			sourceTree = "<group>";
 		};
+		AB0889E82A7B30D80048DAA4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AB0889F22A7BD8D00048DAA4 /* ViewComponents */,
+				AB0889BB2A7B2EE20048DAA4 /* MainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AB0889E92A7B30E10048DAA4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AB0889EA2A7B4BD40048DAA4 /* MainViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AB0889F22A7BD8D00048DAA4 /* ViewComponents */ = {
+			isa = PBXGroup;
+			children = (
+				AB0889F32A7BD8DF0048DAA4 /* PhotosView.swift */,
+				ABE0B63C2A7E6BA600161A4A /* AlbumDialogueView.swift */,
+			);
+			path = ViewComponents;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AB0889B52A7B2EE20048DAA4 /* InClassNotesLocator */ = {
+		AB0889B52A7B2EE20048DAA4 /* LectureArchive */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB0889DA2A7B2EE40048DAA4 /* Build configuration list for PBXNativeTarget "InClassNotesLocator" */;
+			buildConfigurationList = AB0889DA2A7B2EE40048DAA4 /* Build configuration list for PBXNativeTarget "LectureArchive" */;
 			buildPhases = (
 				AB0889B22A7B2EE20048DAA4 /* Sources */,
 				AB0889B32A7B2EE20048DAA4 /* Frameworks */,
@@ -142,14 +183,14 @@
 			);
 			dependencies = (
 			);
-			name = InClassNotesLocator;
+			name = LectureArchive;
 			productName = InClassNotesLocator;
-			productReference = AB0889B62A7B2EE20048DAA4 /* InClassNotesLocator.app */;
+			productReference = AB0889B62A7B2EE20048DAA4 /* LectureArchive.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AB0889C52A7B2EE40048DAA4 /* InClassNotesLocatorTests */ = {
+		AB0889C52A7B2EE40048DAA4 /* LectureArchiveTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB0889DD2A7B2EE40048DAA4 /* Build configuration list for PBXNativeTarget "InClassNotesLocatorTests" */;
+			buildConfigurationList = AB0889DD2A7B2EE40048DAA4 /* Build configuration list for PBXNativeTarget "LectureArchiveTests" */;
 			buildPhases = (
 				AB0889C22A7B2EE40048DAA4 /* Sources */,
 				AB0889C32A7B2EE40048DAA4 /* Frameworks */,
@@ -160,14 +201,14 @@
 			dependencies = (
 				AB0889C82A7B2EE40048DAA4 /* PBXTargetDependency */,
 			);
-			name = InClassNotesLocatorTests;
+			name = LectureArchiveTests;
 			productName = InClassNotesLocatorTests;
-			productReference = AB0889C62A7B2EE40048DAA4 /* InClassNotesLocatorTests.xctest */;
+			productReference = AB0889C62A7B2EE40048DAA4 /* LectureArchiveTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		AB0889CF2A7B2EE40048DAA4 /* InClassNotesLocatorUITests */ = {
+		AB0889CF2A7B2EE40048DAA4 /* LectureArchiveUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB0889E02A7B2EE40048DAA4 /* Build configuration list for PBXNativeTarget "InClassNotesLocatorUITests" */;
+			buildConfigurationList = AB0889E02A7B2EE40048DAA4 /* Build configuration list for PBXNativeTarget "LectureArchiveUITests" */;
 			buildPhases = (
 				AB0889CC2A7B2EE40048DAA4 /* Sources */,
 				AB0889CD2A7B2EE40048DAA4 /* Frameworks */,
@@ -178,9 +219,9 @@
 			dependencies = (
 				AB0889D22A7B2EE40048DAA4 /* PBXTargetDependency */,
 			);
-			name = InClassNotesLocatorUITests;
+			name = LectureArchiveUITests;
 			productName = InClassNotesLocatorUITests;
-			productReference = AB0889D02A7B2EE40048DAA4 /* InClassNotesLocatorUITests.xctest */;
+			productReference = AB0889D02A7B2EE40048DAA4 /* LectureArchiveUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +247,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AB0889B12A7B2EE10048DAA4 /* Build configuration list for PBXProject "InClassNotesLocator" */;
+			buildConfigurationList = AB0889B12A7B2EE10048DAA4 /* Build configuration list for PBXProject "LectureArchive" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +260,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AB0889B52A7B2EE20048DAA4 /* InClassNotesLocator */,
-				AB0889C52A7B2EE40048DAA4 /* InClassNotesLocatorTests */,
-				AB0889CF2A7B2EE40048DAA4 /* InClassNotesLocatorUITests */,
+				AB0889B52A7B2EE20048DAA4 /* LectureArchive */,
+				AB0889C52A7B2EE40048DAA4 /* LectureArchiveTests */,
+				AB0889CF2A7B2EE40048DAA4 /* LectureArchiveUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -257,8 +298,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB0889BC2A7B2EE20048DAA4 /* ContentView.swift in Sources */,
+				AB0889EB2A7B4BD40048DAA4 /* MainViewModel.swift in Sources */,
+				ABE0B63D2A7E6BA600161A4A /* AlbumDialogueView.swift in Sources */,
+				ABE0B63B2A7DABA500161A4A /* ClassPhotoIdentifier.mlmodel in Sources */,
+				AB0889F42A7BD8DF0048DAA4 /* PhotosView.swift in Sources */,
+				AB0889BC2A7B2EE20048DAA4 /* MainView.swift in Sources */,
 				AB0889BA2A7B2EE20048DAA4 /* InClassNotesLocatorApp.swift in Sources */,
+				AB0889E62A7B2FD90048DAA4 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,12 +330,12 @@
 /* Begin PBXTargetDependency section */
 		AB0889C82A7B2EE40048DAA4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AB0889B52A7B2EE20048DAA4 /* InClassNotesLocator */;
+			target = AB0889B52A7B2EE20048DAA4 /* LectureArchive */;
 			targetProxy = AB0889C72A7B2EE40048DAA4 /* PBXContainerItemProxy */;
 		};
 		AB0889D22A7B2EE40048DAA4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AB0889B52A7B2EE20048DAA4 /* InClassNotesLocator */;
+			target = AB0889B52A7B2EE20048DAA4 /* LectureArchive */;
 			targetProxy = AB0889D12A7B2EE40048DAA4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -417,13 +463,17 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"InClassNotesLocator/Preview Content\"";
+				DEVELOPMENT_TEAM = DMZ6G8P7Y5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Allow Us To Create An Album";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -445,13 +495,17 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"InClassNotesLocator/Preview Content\"";
+				DEVELOPMENT_TEAM = DMZ6G8P7Y5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Allow Us To Create An Album";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -480,7 +534,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InClassNotesLocator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/InClassNotesLocator";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LectureArchive.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LectureArchive";
 			};
 			name = Debug;
 		};
@@ -499,7 +553,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InClassNotesLocator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/InClassNotesLocator";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LectureArchive.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LectureArchive";
 			};
 			name = Release;
 		};
@@ -540,7 +594,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AB0889B12A7B2EE10048DAA4 /* Build configuration list for PBXProject "InClassNotesLocator" */ = {
+		AB0889B12A7B2EE10048DAA4 /* Build configuration list for PBXProject "LectureArchive" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB0889D82A7B2EE40048DAA4 /* Debug */,
@@ -549,7 +603,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB0889DA2A7B2EE40048DAA4 /* Build configuration list for PBXNativeTarget "InClassNotesLocator" */ = {
+		AB0889DA2A7B2EE40048DAA4 /* Build configuration list for PBXNativeTarget "LectureArchive" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB0889DB2A7B2EE40048DAA4 /* Debug */,
@@ -558,7 +612,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB0889DD2A7B2EE40048DAA4 /* Build configuration list for PBXNativeTarget "InClassNotesLocatorTests" */ = {
+		AB0889DD2A7B2EE40048DAA4 /* Build configuration list for PBXNativeTarget "LectureArchiveTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB0889DE2A7B2EE40048DAA4 /* Debug */,
@@ -567,7 +621,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB0889E02A7B2EE40048DAA4 /* Build configuration list for PBXNativeTarget "InClassNotesLocatorUITests" */ = {
+		AB0889E02A7B2EE40048DAA4 /* Build configuration list for PBXNativeTarget "LectureArchiveUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB0889E12A7B2EE40048DAA4 /* Debug */,
