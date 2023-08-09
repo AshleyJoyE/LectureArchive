@@ -24,8 +24,8 @@ To enhance organization, the app offers the option to create dedicated photo alb
 
 ### Getting Started
 To begin using LectureArchive, follow these steps:
-1. Clone the repo in XCODE
-2. Deploy the application to an actual iPhone, not a simulator
+1. Clone the repo in XCODE.
+2. Deploy the application to a physical iPhone.
 3. Use the "Fetch" option to automatically identify and display in-class photos. Grant the necessary permissions when prompted.
 
 ### License
